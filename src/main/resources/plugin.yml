@@ -1,0 +1,16 @@
+name: RTP
+version: 1.0.0
+main: my.rtp.RTP
+api-version: "1.20"
+commands:
+  rtp:
+    description: Random teleport
+    usage: /rtp
+permissions:
+  rtp.use:
+    default: true
+  rtp.bypass:
+    description: Skip cooldown
+    default: op
+  rtp.reload:
+    default: op
