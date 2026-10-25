@@ -1,0 +1,13 @@
+min-range: 500
+max-range: 5000
+cooldown-seconds: 60
+max-attempts: 15
+worlds:
+  - world
+messages:
+  searching: "&eMencari lokasi selamat..."
+  success: "&aTeleport ke &fX:%x% Y:%y% Z:%z%"
+  failed: "&cTak jumpa lokasi selamat, cuba lagi."
+  cooldown: "&cTunggu %s% saat lagi."
+  wrong-world: "&cRTP tak boleh digunakan di dunia ini."
+  reloaded: "&aConfig dimuat semula."
